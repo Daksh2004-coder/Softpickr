@@ -1,0 +1,301 @@
+*{
+    margin:  0px;
+    padding: 0%;
+    font-family: calibri;
+    
+   
+}
+
+
+
+#title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    top: 40px;
+}
+
+#content{
+    width: 100%;
+    position: relative;
+    left: 140px;
+    bottom: 90px;
+
+}
+
+/* #box1:hover{
+    border: 8px solid #44f2e6;
+} */
+
+#content1{
+    width: 100%;
+    position: relative;
+    left: 140px;
+    top: 135px;
+
+}
+
+#box1{
+
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* background-color: rgb(196, 164, 164); */
+    /* border: 8px solid #72727227; */
+    border-radius: 15%;
+    text-align: center;
+    position: relative;
+    right: 9px;
+    top: 210px;
+}
+#box2{
+
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* background-color: rgb(196, 164, 164); */
+    /* border: 8px solid #72727227; */
+    border-radius: 15%;
+    text-align: center;
+    position: relative;
+    top: 210px;
+  
+    
+}
+
+#box3{
+
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* background-color: rgb(196, 164, 164); */
+    /* border: 8px solid #72727227; */
+    border-radius: 15%;
+    text-align: center;
+    position: relative;
+   left: 9px;
+    top: 210px;
+     
+}
+
+#box4{
+
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* background-color: rgb(196, 164, 164); */
+    /* border: 8px solid #72727227; */
+    border-radius: 15%;
+    text-align: center;
+    position: relative;
+    right: 9px;
+    
+}
+
+#box5{
+
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* background-color: rgb(196, 164, 164); */
+    /* border: 8px solid #72727227; */
+    border-radius: 15%;
+    text-align: center;
+    position: relative;
+    bottom: 18px;
+    
+}
+
+#box6{
+
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* background-color: rgb(196, 164, 164); */
+    /* border: 8px solid #72727227; */
+    border-radius: 15%;
+    text-align: center;
+    position: relative;
+      left: 9px;
+      bottom: 18px;
+    
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+p{
+    position: relative;
+    top: 68px;
+    font-size: 15px;
+    color: #727272d4;
+    font-weight: bolder;
+}
+#all{
+    
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    top: 180px;
+    
+}
+
+h3.view a {
+    color: #0CB2A6;
+}
+
+.get-started {
+    color: white;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    background-color: #0CB2A6;
+    border-color: transparent;
+    border-radius: 35px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Ensure the cursor changes to a pointer on hover */
+    font-weight: bold; /* Make the button text bold */
+    font-size: 45px;
+    position: relative;
+    top: 280px;
+    margin-bottom: 500px;
+}
+
+
+img{
+     height: 120px;
+     width: 120px;
+     position: relative;
+     top: 65px;
+     left: 15px;
+
+    }
+
+
+    /* Hide the checkboxes */
+ input[type="checkbox"] {
+    display:none;
+  }
+
+  /* Styling for the label */
+   #box1 label {
+    display: inline-block;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    border: 8px solid rgba(128, 128, 128, 0.26);
+  }
+  #box2 label {
+    display: inline-block;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    border: 8px solid rgba(176, 176, 176, 0.484);
+    position: relative;
+    left: 15px;
+  }
+
+  #box3 label {
+    display: inline-block;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    border: 8px solid rgba(176, 176, 176, 0.484);
+    position: relative;
+    left: 29px;
+  }
+
+  #box4 label {
+    display: inline-block;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    border: 8px solid rgba(128, 128, 128, 0.26);
+    position: relative;
+    top: 15px;
+  }
+
+  #box5 label {
+    display: inline-block;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    border: 8px solid rgba(176, 176, 176, 0.484);
+    position: relative;
+    left: 15px;
+    top: 15px;
+  }
+
+  #box6 label {
+    display: inline-block;
+    cursor: pointer;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    border: 8px solid rgba(176, 176, 176, 0.484);
+    position: relative;
+    left: 29px;
+    top: 15px;
+  }
+
+
+  /* Style for selected items */
+  #box1 input[type="checkbox"]:checked + label {
+    border: transparent;
+    border-radius: 15%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3ff4e8;
+  }
+
+  #box2 input[type="checkbox"]:checked + label {
+    border: transparent;
+    border-radius: 15%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3ff4e8;
+  }
+
+  #box3 input[type="checkbox"]:checked + label {
+    border: transparent;
+    border-radius: 15%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3ff4e8;
+  }
+
+  #box4 input[type="checkbox"]:checked + label {
+    border: transparent;
+    border-radius: 15%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3ff4e8;
+  }
+
+  #box5 input[type="checkbox"]:checked + label {
+    border: transparent;
+    border-radius: 15%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3ff4e8;
+  }
+
+  #box6 input[type="checkbox"]:checked + label {
+    border: transparent;
+    border-radius: 15%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #3ff4e8;
+  }
